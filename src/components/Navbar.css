@@ -1,0 +1,45 @@
+/* src/components/Navigation.css */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-dropdown .dropdown-item {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-dark .navbar-nav .nav-dropdown .dropdown-item:hover {
+  color: #000;
+  background-color: #f8f9fa;
+}
+
+.navbar-nav .mx-3 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem; /* Ajusta el padding para mejorar el espaciado */
+  }
+
+  .navbar {
+    padding-left: 2rem; /* Ajusta el padding izquierdo para centrar la barra */
+    padding-right: 2rem; /* Ajusta el padding derecho para centrar la barra */
+  }
+}
